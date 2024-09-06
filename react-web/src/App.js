@@ -1,24 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <header>
+        <div class="jumbotron">
+          <h1><strong>Bandung</strong></h1>
+          <p>Kota metropolitan terbesar di <strong>Provinsi Jawa Barat</strong>, sekaligus menjadi ibu
+              kota provinsi tersebut.</p>
+        </div>
+          <nav>
+              <ul>
+                  <li><a href="#sejarah">Sejarah</a></li>
+                  <li><a href="#geografis">Geografis</a></li>
+                  <li><a href="#wisata">Wisata</a></li>
+              </ul>
+          </nav>
+      </header> 
   );
 }
 
