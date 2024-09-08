@@ -1,5 +1,5 @@
 import './App.css'
-function App() {
+function navbar() {
   return (
     <header>
         <div class="jumbotron">
@@ -18,4 +18,4 @@ function App() {
   );
 }
 
-export default App;
+export default navbar;
